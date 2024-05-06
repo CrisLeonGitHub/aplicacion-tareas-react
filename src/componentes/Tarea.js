@@ -1,6 +1,7 @@
 import React from 'react';
 import '../hojas-de-estilo/Tarea.css';
 import { AiOutlineCloseCircle } from "react-icons/ai";
+//npm install react-icons --save
 
 function Tarea({ id, texto, completada, completarTarea, eliminarTarea }) {
   return (
